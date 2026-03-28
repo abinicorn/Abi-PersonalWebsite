@@ -1,14 +1,14 @@
-# Navigation — use pageRef for internal pages so links respect baseURL (e.g. GitHub Pages subpaths).
-# See: https://gohugo.io/configuration/menus/
+# Navigation — Hugo Blox expects `main:` at the top level (not `menus:`).
+# Use pageRef for internal pages so links respect baseURL (e.g. GitHub Pages subpaths).
+# See: https://docs.hugoblox.com/hugoblox/guides/configuration/
 
-menus:
-  main:
-    - name: Home
-      pageRef: /
-      weight: 10
-    - name: Blog
-      pageRef: /blog
-      weight: 20
-    - name: Work
-      pageRef: /uses
-      weight: 30
+main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Blog
+    pageRef: /blog
+    weight: 20
+  - name: Work
+    pageRef: /uses
+    weight: 30
