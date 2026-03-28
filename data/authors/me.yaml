@@ -28,20 +28,20 @@ links:
 education:
   - degree: Master of Information Technology
     institution: The University of Auckland
-    start: 2021-03
-    end: 2023-11
+    start: 2021-03-01
+    end: 2023-11-30
     summary: |
       GPA: 8.4/9.0. Focus on software development, object-oriented programming, and cloud computing, including full-stack web development, Java, and AWS (MERN stack and AWS cloud computing).
   - degree: Language and Literature (exchange)
     institution: Victoria University of Wellington
-    start: 2018-06
-    end: 2019-07
+    start: 2018-06-01
+    end: 2019-07-31
     summary: |
       GPA: 7.5/9.0. Awarded Victoria International Leadership Programme Certificate and Victoria Plus Certificate.
   - degree: Translation (Second Language Japanese), Bachelor
     institution: North China Electric Power University (Beijing)
-    start: 2016-08
-    end: 2020-05
+    start: 2016-08-01
+    end: 2020-05-31
     summary: |
       GPA: 8.7/9.0. CSC (China Scholarship Council) scholarship recipient for exchange at Victoria University of Wellington.
 experience:
