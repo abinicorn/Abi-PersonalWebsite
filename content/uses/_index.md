@@ -1,37 +1,39 @@
 ---
-title: Uses
+title: Skills & work
 ---
 
-A practical list of tools and stack I work with day to day—mostly aligned with **.NET**, **React**, **SQL Server**, and **cloud** fundamentals from my current role and studies.
+What I reach for most often at work, plus a few **projects and roles** where those skills showed up in practice—not a shopping list of tools.
 
-## Editor & local setup
+## Skills I use day to day
 
-- **Editor:** [Visual Studio Code](https://code.visualstudio.com/) for day-to-day editing; **Visual Studio** or **Rider** are common companions in the .NET ecosystem when a heavier IDE fits the task.
-- **Terminal:** **zsh** on **macOS** for scripts, Git, and running local services.
-- **Version control:** **Git** with branch/PR workflows; reviews and trunk-style integration are part of how changes reach production.
+**Backend & APIs** — **C#** on **.NET** / **ASP.NET**, **REST** services, and service layers that sit behind UIs and integrations. Comfortable tracing issues across services and databases when something breaks in production.
 
-## Languages & application stack
+**Data** — **Microsoft SQL Server**: schemas, **stored procedures**, ad hoc queries, and tuning slow paths so financial and operational workloads stay reliable.
 
-- **Backend:** **C#** on **.NET** / **ASP.NET** (MVC and API surfaces), **REST** services, and service logic that sits behind UIs and integrations.
-- **Frontend:** **TypeScript** and **JavaScript** with **React** for internal tools and product UI; prior work with **Vue.js** and **Element UI** on other projects.
-- **Data access:** **T-SQL** against **Microsoft SQL Server**—schemas, stored procedures, and tuned queries for financial and operational data.
+**Frontend** — **TypeScript** and **React** for internal tools and product surfaces; wiring components to the same APIs the backend exposes.
 
-## Architecture & delivery
+**How we ship** — **Git** and **pull requests**, **TeamCity** pipelines, **Jira**, and **Agile (Scrum)**—so “done” means reviewed, tested, and released on a predictable cadence.
 
-- **Style:** **Microservices**, **event-driven** patterns, **message queues** (**RabbitMQ**), background jobs, and scheduled tasks—typical of large regulated platforms.
-- **CI/CD:** **TeamCity** for build and deploy pipelines; releases tied to disciplined branching and review.
-- **Collaboration:** **Jira** for work tracking; **Agile (Scrum)** ceremonies; **pull requests** as the default path to merge.
+**Architecture** — **Microservices**, **event-driven** flows, **RabbitMQ**, background jobs, and scheduled tasks—patterns you see on large, regulated platforms.
 
-## Cloud & certifications
-
-- **Microsoft Azure:** Studied and certified at foundational level (**AZ-900**—Azure Fundamentals)—core services, security, compliance, and cost basics.
-- **AWS:** **AWS Certified Cloud Practitioner** for a broad view of AWS services, billing, and shared responsibility.
-
-## Hardware
-
-- **Machine:** Apple **Mac** on **macOS**—enough CPU/RAM for multiple IDEs, containers, and browser tabs during a normal dev day.
-- **Peripherals:** External **monitor** for dual-screen layouts when debugging UI next to logs or SQL; standard **keyboard** and **trackpad** for long sessions.
+**Cloud foundations** — **Azure** and **AWS** at certification level (**AZ-900**, **AWS Cloud Practitioner**), enough to talk services, security, and cost with platform teams.
 
 ---
 
-*Inspired by [uses.tech](https://uses.tech/). I’ll refresh this list as my stack evolves.*
+## Projects & roles (where that showed up)
+
+### FNZ — Analyst Developer (current)
+
+Work on a **wealth and investment** platform used at scale: pension and allowance logic, backend services, SQL-heavy processing, and production support when incidents need log + database forensics. Recent focus areas include **pension allowance processing**, service integrations, and **React / TypeScript** work on internal tooling—always with an eye on **data integrity** and safe releases through CI/CD.
+
+### University of Auckland — Full-stack intern (research system)
+
+**React** and **Express** for a **research management** product: UI modules, API integration, and helping researchers manage project data end to end. Good practice in turning vague requirements into something shippable on a short timeline.
+
+### IreadyIT — Front-end intern (environmental platform)
+
+**Vue.js** and **Element UI** for an **environmental** domain product—feature UI, forms, and polish in collaboration with the team. Earlier career, but it’s where I solidified component-driven front-end habits.
+
+---
+
+If you want the full timeline and bullets, the **résumé** on the home page is the source of truth; this page is the short story.
