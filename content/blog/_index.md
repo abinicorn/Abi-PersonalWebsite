@@ -2,4 +2,4 @@
 title: Blog
 ---
 
-Notes on software, projects, and things I am learning.
+I am not publishing articles here at the moment. When I do, they will show up in this section.

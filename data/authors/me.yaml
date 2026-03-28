@@ -49,28 +49,31 @@ experience:
     org: FNZ
     start: 2024-03-01
     summary: |
-      Develop software for a large-scale financial services platform supporting investment operations. Contribute via pull requests within a team of 100+ engineers and testers; ship through CI (TeamCity) in daily production release cycles.
-
-      Key contributions:
-      • Pension allowance processing — backend logic for pension allowance calculations and adjustments (C#, SQL Server); integrated workflows with dependent platform services; investigated production issues and data integrity.
-      • Backend services — C# and ASP.NET components, REST endpoints, and integrations for internal and downstream systems.
-      • Data processing — SQL Server logic for financial and operational workflows; integrations via APIs and database operations.
-      • Production support — incident investigation with logs and SQL; fixes for transaction processing stability.
-      • Platform enhancements — backend and database updates for evolving requirements while preserving architecture compatibility.
-      • Frontend — React and TypeScript UI for internal tools; ASP.NET MVC integration with backend APIs.
-      • Database — schema design, stored procedures, and query optimization for financial data processing.
+      - Build and maintain software for a **large-scale financial services platform** supporting investment operations and wealth management.
+      - Work in a **high-collaboration** environment (100+ engineers and testers): code reviews, pull requests, and shared ownership of production quality.
+      - Ship through **TeamCity** CI/CD pipelines as part of **daily production release** cycles.
+      - **Pension allowance processing:** Design and implement backend logic for pension allowance calculations and adjustments (**C#**, **SQL Server**); wire processing into existing platform services; troubleshoot production defects and **data integrity** issues.
+      - **Backend services:** Deliver **ASP.NET** / **C#** services, **REST** endpoints, and integrations consumed by internal apps and downstream systems.
+      - **Data & integration:** Author **SQL Server** logic for financial and operational workflows; connect internal services and **external systems** via APIs and database operations.
+      - **Production support:** Diagnose incidents using **logs** and **SQL**; implement fixes to keep financial transaction processing stable and correct.
+      - **Platform work:** Extend services and schemas for new requirements while staying compatible with the existing **microservice** architecture.
+      - **Frontend:** Ship **React** and **TypeScript** UI for internal tools and platform surfaces; integrate with **ASP.NET MVC** and backend APIs.
+      - **Database engineering:** Design schemas, **stored procedures**, and tuned queries to support new features and faster retrieval for internal services.
   - role: Full-stack Developer Intern
     org: School of Computer Science, University of Auckland
     start: 2023-08-01
     end: 2023-11-30
     summary: |
-      Built front-end modules with React and Express for a research management system; implemented UI components and API integrations for research project data management.
+      - Built **front-end modules** with **React** and **Express** for a **research management** system.
+      - Implemented **UI components** and wired them to APIs for research project and data management workflows.
+      - Supported end-to-end features from interface through to backend integration.
   - role: Front-end Developer Intern
     org: IreadyIT Technology Co., Ltd.
     start: 2021-12-01
     end: 2022-02-28
     summary: |
-      Developed UI components with Vue.js and Element UI for an environmental platform.
+      - Developed **UI components** with **Vue.js** and **Element UI** for an **environmental** industry platform.
+      - Collaborated on feature implementation and interface polish within the product team.
 skills:
   - name: Languages & runtimes
     items:
