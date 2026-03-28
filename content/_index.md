@@ -43,7 +43,7 @@ sections:
       username: me
   - block: awards
     content:
-      title: Awards
+      title: Certifications
       username: me
   - block: languages
     content:

@@ -5,7 +5,8 @@
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
-baseURL: 'https://example.com/' # Website URL
+# Set this to your real site URL before deploy (e.g. Netlify URL or https://username.github.io/repo-name/)
+baseURL: 'https://example.com/'
 
 ############################
 ## LANGUAGE

@@ -2,131 +2,133 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
+  display: Abby (Zijia) Liu
+  given: Abby
+  family: Liu
+  pronunciation: Abby Liu
   pronouns: she/her
 status:
   icon: "☕️"
-role: Director of Cloud Infrastructure
+role: Analyst Developer
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
-affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  Software engineer with experience developing and maintaining large-scale financial systems using C#, .NET, React, and SQL.
+  Experienced in REST APIs, business logic, database performance, and third-party integrations within distributed microservice architectures.
+  Skilled in debugging production issues, improving system performance, and collaborating in Agile teams delivering frequent releases.
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:abbynicorn@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/abinicorn
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/abby-liu-61448024b/
+  - icon: briefcase
+    url: https://www.fnz.com/
+    label: FNZ
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: Master of Information Technology
+    institution: The University of Auckland
+    start: 2021-03
+    end: 2023-11
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      GPA: 8.4/9.0. Focus on software development, object-oriented programming, and cloud computing, including full-stack web development, Java, and AWS (MERN stack and AWS cloud computing).
+  - degree: Language and Literature (exchange)
+    institution: Victoria University of Wellington
+    start: 2018-06
+    end: 2019-07
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      GPA: 7.5/9.0. Awarded Victoria International Leadership Programme Certificate and Victoria Plus Certificate.
+  - degree: Translation (Second Language Japanese), Bachelor
+    institution: North China Electric Power University (Beijing)
+    start: 2016-08
+    end: 2020-05
     summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 8.7/9.0. CSC (China Scholarship Council) scholarship recipient for exchange at Victoria University of Wellington.
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Analyst Developer
+    org: FNZ
+    start: 2024-03-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      Develop software for a large-scale financial services platform supporting investment operations. Contribute via pull requests within a team of 100+ engineers and testers; ship through CI (TeamCity) in daily production release cycles.
+
+      Key contributions:
+      • Pension allowance processing — backend logic for pension allowance calculations and adjustments (C#, SQL Server); integrated workflows with dependent platform services; investigated production issues and data integrity.
+      • Backend services — C# and ASP.NET components, REST endpoints, and integrations for internal and downstream systems.
+      • Data processing — SQL Server logic for financial and operational workflows; integrations via APIs and database operations.
+      • Production support — incident investigation with logs and SQL; fixes for transaction processing stability.
+      • Platform enhancements — backend and database updates for evolving requirements while preserving architecture compatibility.
+      • Frontend — React and TypeScript UI for internal tools; ASP.NET MVC integration with backend APIs.
+      • Database — schema design, stored procedures, and query optimization for financial data processing.
+  - role: Full-stack Developer Intern
+    org: School of Computer Science, University of Auckland
+    start: 2023-08-01
+    end: 2023-11-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Built front-end modules with React and Express for a research management system; implemented UI components and API integrations for research project data management.
+  - role: Front-end Developer Intern
+    org: IreadyIT Technology Co., Ltd.
+    start: 2021-12-01
+    end: 2022-02-28
+    summary: |
+      Developed UI components with Vue.js and Element UI for an environmental platform.
 skills:
-  - name: Technical Skills
+  - name: Languages & runtimes
     items:
-      - label: Python
-        level: 4
-      - label: RStudio
+      - label: C#
         level: 5
-      - label: PyTorch
-        level: 2
+      - label: TypeScript
+        level: 5
+      - label: JavaScript
+        level: 5
+      - label: SQL
+        level: 5
+      - label: Java
+        level: 3
+  - name: Frameworks & platforms
+    items:
+      - label: .NET / ASP.NET
+        level: 5
+      - label: React
+        level: 5
+      - label: REST APIs & microservices
+        level: 5
+      - label: Vue.js
+        level: 3
+  - name: Data & architecture
+    items:
+      - label: Microsoft SQL Server
+        level: 5
+      - label: RabbitMQ & event-driven design
+        level: 4
+      - label: Git & TeamCity CI/CD
+        level: 5
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - label: Hiking
         level: 3
-      - label: Cats
-        level: 5
       - label: Photography
         level: 4
+      - label: Cats
+        level: 5
 languages:
   - name: English
     level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
+  - name: Chinese (Mandarin)
+    level: 5
+  - name: Japanese
+    level: 3
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Microsoft Certified — Azure Fundamentals (AZ-900)
+    date: '2024-03-01'
+    awarder: Microsoft
+    icon: brands/microsoft
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
+      Foundational knowledge of Azure cloud services, security, compliance, pricing, and support.
+  - title: AWS Certified Cloud Practitioner
+    date: '2022-09-01'
+    awarder: Amazon Web Services
+    icon: brands/aws
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Core AWS services, billing, security, and cloud value proposition.

@@ -28,6 +28,9 @@ hugo_stats.json
 # Dependencies
 node_modules/
 
+# Local Python venv (e.g. PDF tooling)
+.venv/
+
 # ============================================================================
 # Environment & Configuration
 # ============================================================================
